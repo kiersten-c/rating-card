@@ -1,0 +1,14 @@
+body {
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    background-color: #141519;
+    color: #949aa6;
+}
+
+.container {
+    background-color: #1f2630;
+}
+
+h1 {
+    color: #fcffff;
+}
