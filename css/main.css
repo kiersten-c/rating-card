@@ -3,12 +3,34 @@ body {
     font-size: 15px;
     background-color: #141519;
     color: #949aa6;
+    
 }
 
 .container {
     background-color: #1f2630;
+    border-radius: 5px;
+    width: 90vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 h1 {
     color: #fcffff;
+}
+
+form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
+
+script {
+    display: none;
 }
