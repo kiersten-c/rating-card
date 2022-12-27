@@ -35,7 +35,7 @@
   <body>
     <!-- Rating state start -->
     <div class="container">
-      <img src="./images/icon-star.svg">
+      <img src="./images/icon-star.svg" class="star" />
 
       <h1>How did we do?</h1>
 
@@ -43,39 +43,27 @@
         Please let us know how we did with your support request. All feedback is
         appreciated to help us improve our offering!
       </p>
-
-      <form>
-          <div class="button">
-            <input type="radio" id="rating1" />
-            <label for="rating1">1</label>
-          </div>
-          <div class="button">
-            <input type="radio" id="rating2" />
-            <label for="rating2">2</label>
-          </div>
-          <div class="button">
-            <input type="radio" id="rating3" />
-            <label for="rating3">3</label>
-          </div>
-          <div class="button">
-            <input type="radio" id="rating4" />
-            <label for="rating4">4</label>
-          </div>
-          <div class="button">
-            <input type="radio" id="rating5" />
-            <label for="rating5">5</label>
-          </div>
-
-          <button>Submit</button>
-      </form>
+      <div class="radio-toolbar">
+        <input type="radio" id="rate1" name="val" value="1" checked />
+        <label for="rate1">1</label>
+        <input type="radio" id="rate2" name="val" value="2" />
+        <label for="rate2">2</label>
+        <input type="radio" id="rate3" name="val" value="3" />
+        <label for="rate3">3</label>
+        <input type="radio" id="rate4" name="val" value="4" />
+        <label for="rate4">4</label>
+        <input type="radio" id="rate5" name="val" value="5" />
+        <label for="rate1">5</label>
+      </div>
+      <input type="submit" id="submit-button"></input>
     </div>
 
     <!-- Rating state end -->
 
     <!-- Thank you state start -->
     <div class="container hide">
-      <img src="./images/illustration-thank-you.svg">
-      
+      <img src="./images/illustration-thank-you.svg" />
+
       <p>You selected <span>4</span> out of 5</p>
 
       <h1>Thank you!</h1>

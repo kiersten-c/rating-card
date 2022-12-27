@@ -3,34 +3,99 @@ body {
     font-size: 15px;
     background-color: #141519;
     color: #949aa6;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
     background-color: #1f2630;
-    border-radius: 5px;
-    width: 90vw;
-    height: auto;
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    padding: 25px;
+    width: 75vw;
+    margin-bottom: 10px;
+    max-width: 325px;
+}
+
+.star {
+    width: 18px;
+    padding: 15px;
+    background-color: #252e37;
+    border-radius: 20px;
 }
 
 h1 {
     color: #fcffff;
+    margin: 20px 0 0 0;
 }
 
-form {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+p {
+    line-height: 1.7em;
 }
-
 .hide {
     display: none;
 }
 
 script {
     display: none;
+}
+
+.radio-toolbar{
+  width:fit-content;
+  align-self: center;
+  display:flex;
+  justify-content:space-evenly;
+  margin-top: 10px;
+}
+
+.radio-toolbar input[type="radio"] {
+    visibility: hidden;
+    display: none;
+  }
+
+  .radio-toolbar label {
+   
+    background-color: #262f38;
+    padding: 15px 20px;
+    font-family: sans-serif, Arial;
+    font-size: 16px;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size:1.2em;
+    margin: 5px 8px;
+    
+}
+
+.radio-toolbar label:hover {
+  background-color:#ff7510;
+  color:#fff9ec;
+}
+.radio-toolbar input[type="radio"]:checked + label {
+    background-color:#7c8898;
+    color:#fcffff;
+}
+
+input[type="submit"] {
+    align-self: center;
+    color: #ffe8c4;
+    background-color: #fc7613;
+    border: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    width: 75vw;
+    height: 45px;
+    border-radius: 25px;
+    margin: 30px 0 10px 0;
+    max-width: 300px;
+}
+
+input[type="submit"]:hover {
+    color: #ff9b3c;
+    background-color: #ffffff;
 }
