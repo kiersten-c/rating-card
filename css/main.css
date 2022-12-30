@@ -20,7 +20,8 @@ body {
     padding: 25px;
     width: 75vw;
     margin-bottom: 10px;
-    max-width: 325px;
+    max-width: 400px;
+    height: auto;
 }
 
 .star {
