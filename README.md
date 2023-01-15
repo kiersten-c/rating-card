@@ -93,3 +93,11 @@ This challenge is completely free. Please share it with anyone who will find it 
 
 **Have fun building!** 🚀
 # rating-card
+
+
+Things I had to learn (or relearn)
+
+Add 'defer' to the <script> in the HTML head to avoid JS loading before HTML
+
+Radio Buttons:
+    - giving them all the same name makes them a radio group and makes it so only one button can be selected at a time

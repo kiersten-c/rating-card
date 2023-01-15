@@ -1,10 +1,12 @@
-const submitButton = document.getElementById("submit-button");
-const ratingSection = document.getElementById("rating");
-const thanksSection = document.getElementById("thankyou");
-const rating = document.getElementById("rated");
-const toolbar = document.getElementById("toolbar input");
+const ratings = document.querySelectorAll('input[name="val"]');
+const submitBtn = document.getElementById("submit-button")
 
-submitButton.addEventListener("click", function () {
-  const rate = toolbar.value;
-  console.log(rate);
-});
+submitBtn.addEventListener("click", () => {
+  let selectedRate;
+  for (const rating of ratings) {
+    if (rating.checked) {
+      selectedRate = rating.value;
+      break;
+    }
+  }
+})
