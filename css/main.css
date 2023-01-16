@@ -101,6 +101,10 @@ input[type="submit"]:hover {
     background-color: #ffffff;
 }
 
+#thankyou {
+    align-items: center;
+}
+
 .thanks {
     justify-content: center;
     align-items: center;
